@@ -1,6 +1,5 @@
-# Install packages from a local miniCRAN repository
-#
-# Run this code on the SQL Server machine
+# Install packages from a local Repository
+
 
 pkgs_needed <- c("tidyr", "shinydashboard", "shinyBS", "shinyjs", "shinyWidgets", "ggplot2", "dplyr")
 local_repo  <- "/opt/rpackages"
